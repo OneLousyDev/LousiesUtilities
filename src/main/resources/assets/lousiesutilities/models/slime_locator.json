@@ -1,0 +1,14 @@
+{
+  "parent" : "item/generated",
+  "textures" : {
+    "layer0" : "lousiesutilities:item/slime_locator"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "lousiesutilities:active": 1
+      },
+      "model": "lousiesutilities:item/slime_locator_active"
+    }
+  ]
+}
